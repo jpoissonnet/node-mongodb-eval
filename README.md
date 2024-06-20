@@ -42,7 +42,8 @@ héberge les images sur un serveur, on pourrait imaginer une méthode pour mettr
 
 - Pour améliorer le `search` par nom de flipper
   Dans un premier temps, on pourrait augmenter le nombre de résultats retourné - 4 c'est pas beaucoup - et on pourrait
-  aussi trier les résultats par notes décroissantes.
+  aussi trier les résultats par notes décroissantes. Pour optimiser la recherche, on pourrait aussi ajouter un index
+  pour aider un peu le Mongo.
 - Pour accélérer la présentation en liste des flippers sur la home page.
   Il faudrait paginer les résultats, et ne pas retourner tous les flippers en une seule fois. Une petite pagination de
   30 flippers par page serait déjà un bon début. Ou alors, on peut aussi imaginer un système de lazy loading dans lequel
