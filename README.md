@@ -45,4 +45,8 @@ héberge les images sur un serveur, on pourrait imaginer une méthode pour mettr
   aussi trier les résultats par notes décroissantes.
 - Pour accélérer la présentation en liste des flippers sur la home page.
   Il faudrait paginer les résultats, et ne pas retourner tous les flippers en une seule fois. Une petite pagination de
-  30 flippers par page serait déjà un bon début.
+  30 flippers par page serait déjà un bon début. Ou alors, on peut aussi imaginer un système de lazy loading dans lequel
+  on charge une petite partie des flippers côté serveur et on charge le reste au fur et à mesure que l'utilisateur
+  scroll.
+  PS : après vérification, le front a l'air d'être en bon vieux PHP, donc l'AJAX côté front, je pense que ça vaut pas le
+  coût de le faire si c'est pour qu'un dev se fasse mal.
